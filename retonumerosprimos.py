@@ -1,4 +1,4 @@
-### Funcion para generar némeros primos del 1 al 250
+### Funcion para generar números primos del 1 al 250
 
 def es_primo(numeros):
     if numeros < 2:
@@ -13,7 +13,7 @@ def es_primo(numeros):
 inicio = 1
 final = 250
 
-### Imprimir etiqueta de que rango se esta tomando para la conversion 
+### Imprimir etiqueta de que rango se esta tomando para obtner numeros primos 
 print(f"Números primos entre {inicio} y {final}:\n")
 
 for numeros in range(inicio, final + 1):
